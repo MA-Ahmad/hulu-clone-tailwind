@@ -6,8 +6,17 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         "header-img": "url('/header.jpg')"
-      })
-    }
+      }),
+      colors: {
+        "hulu-green": "#00ed82"
+      }
+    },
+    gradientColorStops: theme => ({
+      ...theme("colors"),
+      cstart: "#0f495c",
+      cvia: "#0d3640",
+      cend: "#08141f"
+    })
   },
   variants: {
     extend: {}
