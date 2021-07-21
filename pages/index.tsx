@@ -142,7 +142,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-
       <section className="h-800 relative bg-livesport-small md:bg-livesport-img bg-cover bg-no-repeat bg-center text-white">
         <div className="absolute max-w-550 top-28 left-6 md:top-160 md:left-100 space-y-7">
           <div className="font-bold text-5xl md:text-7xl">Live Sports</div>
@@ -173,7 +172,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <footer className="bg-gray-200 text-black">
         <div className="p-10 max-w-1100 m-auto">
           <div className="flex flex-col md:flex-row justify-between">
