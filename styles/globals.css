@@ -3,10 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.h-px {
-  height: 530px;
-}
-
 .header::after {
   content: '';
   position: absolute;
@@ -21,4 +17,13 @@
     rgba(0, 0, 0, 0.192) 60.23%,
     rgba(0, 0, 0, 8e-5) 100%
   );
+}
+
+.cover-grad {
+  background: linear-gradient(
+      156.82deg,
+      rgba(0, 0, 0, 0.6) 4.58%,
+      rgba(0, 0, 0, 0) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%);
 }
