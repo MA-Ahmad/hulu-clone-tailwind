@@ -1,6 +1,19 @@
+import Head from "next/head";
+
 export default function Home() {
   return (
     <div>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charSet="utf-8" />
+        <title>Stream TV and Movies Live and Online | Hulu</title>
+        <meta
+          name="title"
+          property="og:title"
+          content="Stream TV and Movies Live and Online | Hulu"
+        />
+      </Head>
       <header className="header h-530 bg-header-img bg-cover bg-no-repeat bg-center">
         <nav className="relative flex justify-end z-20 px-8 py-6">
           <ul>
