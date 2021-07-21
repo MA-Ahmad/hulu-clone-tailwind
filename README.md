@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="./public/logo.png" alt="Logo" width="250" height="120">
+    <img src="./public/logo.png" alt="Logo" width="250" height="100">
   </a>
 
   <h2 align="center">Hulu Webpage Clone</h2>
